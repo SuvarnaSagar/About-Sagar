@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,500&family=Nunito&family=Poppins:wght@200;400&display=swap');
+body{
+    margin: 0;
+    background-color: black;
+    background-image: url("https://images.unsplash.com/photo-1622793139910-e261be0b30a4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLWxpa2VkfDE1fHx8ZW58MHx8fHx8&w=1000&q=80");
+}
+.navbar{
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 16vh;
+    background-color: skyblue;
+    background-image: url("https://images.unsplash.com/photo-1622793139910-e261be0b30a4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLWxpa2VkfDE1fHx8ZW58MHx8fHx8&w=1000&q=80");
+}
+.nav-right{
+    text-align: right;
+    padding-top: 40px;
+}
+.nav-right .a-element {
+    display: inline-block;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-style: normal;
+    font-family: 'Poppins', sans-serif;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.nav-right .a-element:hover {
+    transform: scale(1.1);
+    color: aqua;
+}
+
+.nav-left{
+    padding: 10px;
+}
+.logo{
+    height: 100px;
+}
+.home{
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    justify-content: space-between;
+}
+.home-left{
+    color: white;
+    padding-top: 100px;
+    padding-left: 100px;
+}
+.home-right{
+    color: white;
+    padding-right: 150px;
+    padding-top: 130px;
+}
+.my-image{
+    height: 400px;
+    padding-left: 70px;
+}
+.my-name{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+    text-align: right;
+    color: rgb(146, 195, 214);
+    letter-spacing: 3px;
+}  
+.me{
+   font-size: 18px;
+   text-align: right;
+}
+.services{
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+    font-size: large;
+}
+.ser-sub{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.ser-card{
+    border: 2px rgb(32, 169, 223) solid;
+    margin: 20px;
+    padding: 20px; 
+}
+.s-h{
+    font-family: 'Playpen Sans', cursive;
+    color: rgb(146, 195, 214);
+}
+.ser{
+    font-family: 'Signika', sans-serif;
+    color: rgb(146,195,214);
+    letter-spacing: 2px;
+    font-size: 50px;
+    font-style: oblique;
+}
+.s-p{
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Montserrat', sans-serif;
+}
+.contact{
+    padding-top: 100px;
+}
+.c-h{
+    text-align: center;
+    font-family: 'Signika', sans-serif;
+    color: rgb(146,195,214);
+    letter-spacing: 1px;
+    font-size: 50px;
+    font-style: oblique;
+}
+.c-p{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+.con-img{
+    text-align: center;
+}
+.img{
+    height: 50px;   
+    padding: 10px;
+}
+.text-p{
+    font-family: 'Times New Roman', Times, serif;
+}
+.text-img{
+    height: 50px;
+}
